@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- CSS bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container parent align-items-center justify-content-center">
+        <!-- Login Box -->
+        <div class="login p-5 text-center" id="login">
+            <h1 class="mb-5">Login Account</h1>
+            <form onsubmit="login(event)" class="form">
+                <input id="email" type="email" placeholder="Email" required>
+                <input id="password" type="password" placeholder="Password" required>
+                <button class="rounded-pill py-3 border-0 mb-3 mt-4 bg-dark text-white" id="login_button">Login Account</button>
+                <button class="rounded-pill py-3 bg-white mb-3" type="submit">
+                    <img src="data:image/png;base64,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" alt="">
+                    Login with <span class="text-capitalize">google</span>
+                </button>
+                <p class="change_link">
+                    Don't have an account?
+                    <a class="link signUp ps-2" href="signup.html">Sign Up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- JS File Login -->
+    <script type="module" src="JS/LogIn.js"></script>
+    <!-- JS bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" 
+    integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

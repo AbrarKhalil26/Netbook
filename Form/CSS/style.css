@@ -1,0 +1,70 @@
+/* ---------------------------------------------------- */
+/*                      Globel                          */
+/* ---------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("../images/photo.jpeg");
+    background-size: cover;
+
+}
+body,.parent{
+    min-height: 100vh;
+}
+input, button{
+    width: 100%;
+}
+input{
+    border: 0;
+    border-bottom: 2px solid #ddd;
+    padding: 5px 0 10px 6px;
+    margin-bottom: 30px !important;
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0,10%);
+    background-color: inherit;
+}
+button{
+    font-weight: 500;
+}
+input::placeholder{
+    font-weight: 500;
+}
+img{
+    width: 25px;
+    margin-right: 5px;
+}
+.change_link{
+    color: rgba(0, 0, 0,60%);
+    font-size: 13px;
+}
+.link{
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+.active{
+    display: none !important;
+}
+/* ---------------------------------------------------- */
+/*                      Content                         */
+/* ---------------------------------------------------- */
+.parent{
+    display: flex;
+    user-select: none;
+}
+/* ---------------------------------------------------- */
+/*                      Create Account                  */
+/* ---------------------------------------------------- */
+.create, .login{
+    width: 500px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 80%);
+}
+.create h1{
+    font-size: 40px;
+    font-weight: 600;
+}

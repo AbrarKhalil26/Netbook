@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- CSS bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid container-lg">
+            <a class="navbar-brand d-flex" href="#">
+                <img src="images/Netbook.svg" alt="Netbook">
+                <h1 class="ms-2 mt-2">Netbook</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Community
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#about">About Us</a></li>
+                            <li><a class="dropdown-item" href="#archievement">Archievement</a></li>
+                            <li><a class="dropdown-item" href="#feature">Features</a></li>
+                            <li><a class="dropdown-item" href="#team">Our Team</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                </ul>
+                
+                <form class="d-flex align-items-center">
+                    <div class="box-Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="form-control" type="search" placeholder="Search Here..." aria-label="Search">
+                    </div>
+                    <button class="general-btn ms-3 btn-login" type="submit" >
+                        <a href="Form/login.html">Log in</a>
+                    </button>
+                    <i class="fa-regular fa-user active-user user-icon"></i>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="header" id="Home">
+        <div class="container-fluid container-md pb-5">
+            <div class="row parent-header">
+                <div class="col-lg-5 col-xl-5 col-12">
+                    <div class="text-header">
+                        <p class="hint-title-header rounded-pill mb-4">Netbook community</p>
+                        <h1 class="text-capitalize mb-3">Your solutions for community!</h1>
+                        <p class="p-gray mb-5">More than 2 billion people in over countries use socibook to stay in touch with frinds & family.</p>
+                        <button class="general-btn">About more</button>
+                        <button class="invite-btn">invite friend</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-5 col-12">
+                    <div class="img-header position-relative">
+                        <img src="images/Friends.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="about" id="about">
+        <div class="container-fluid container-sm">
+            <div class="row perant-about justify-content-between align-items-center">
+                <div class="col-lg-5 col-xl-5 col-12">
+                    <div class="text-about">
+                        <p class="hint-title rounded-pill mb-4">Whats Netbooks?</p>
+                        <h2 class="text-capitalize mb-3">Why Join to Netbook Social Network?</h2>
+                        <p class="p-gray mb-5">Recent surveys have indicated that small businesses recognise the need they have to connect with consumer.</p>
+                        <ul>
+                            <li>Groups</li>
+                            <li>Messages</li>
+                            <li>Share</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-xl-6 col-12">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-12 col-sm-6 mb-2 mb-sm-0 ">
+                            <div class="img-about position-relative">
+                                <img src="images/pexels-fauxels-3182834.png" alt="">
+                                <span>
+                                    <i class="fa-solid fa-play"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 d-grid gap-2">
+                            <div class="img-about position-relative">
+                                <img src="images/pexels-andres-ayrton-6578391.png" alt="">
+                                <span>
+                                    <i class="fa-solid fa-play"></i>
+                                </span>
+                            </div>
+                            <div class="img-about position-relative">
+                                <img src="images/pexels-brett-sayles-2881232.png" alt="">
+                                <span>
+                                    <i class="fa-solid fa-play"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Archievement -->
+    <div class="archievement" id="archievement">
+        <div class="container-fluid container-sm">
+            <div class="row g-3">
+                <div class="col-12 col-lg-4 col-md-6 order-2 order-md-0">
+                    <div class="card">
+                        <div class="rate mb-4">
+                            <i class="fa-regular fa-star me-2"></i>
+                            <span>4.8 Rating</span>
+                        </div>
+                        <div class="members d-flex align-items-center mb-4">
+                            <div class="img-members position-relative">
+                                <img src="images/Ellipse 13.svg" alt="">
+                                <img src="images/Ellipse 14.svg" alt="">
+                                <img src="images/Ellipse 15.svg" alt="">
+                            </div>
+                            <p class="p-gray"><span>+836k</span> Members</p>
+                        </div>
+                        <p class="p-gray mb-4">
+                            More than 2 billion we people over contries usxe 
+                            socibooks we to stay in touch with friends.
+                        </p>
+                        <div class="join">
+                            <a href="#" class="text-decoration-none text-capitalize">Join our community</a>
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 order-3 order-md-0">
+                    <div class="card">
+                        <div class="award mb-4">
+                            <i class="fa-solid fa-trophy me-2"></i>
+                            <span>Awwwards</span>
+                        </div>
+                        <div class="github d-flex mb-2">
+                            <img src="images/GitHub-icon.svg" alt="">
+                            <p class="p-gray mt-1">Best of <span>2021</span> on Github</p>
+                        </div>
+                        <p class="p-gray mb-4">
+                            More than 2 billion we people over contries usxe 
+                            socibooks we to stay in touch with friends.
+                        </p>
+                        <div class="goToAwards">
+                            <a href="#" class="text-decoration-none text-capitalize">Go to awards</a>
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 order-1 order-md-0">
+                    <div class="mt-5 mt-lg-0 ms-lg-5">
+                        <p class="hint-title text-capitalize">Our archievement</p>
+                        <h2 class="mb-4">We are <span class="text-capitalize">connecting you the digital life.</span></h2>
+                        <p class="p-gray mb-4">
+                            More than 2 billion we people over contries usxe 
+                            socibooks we to stay in touch with friends.
+                        </p>
+                        <button class="general-btn">
+                            Discover me
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div class="feature" id="feature">
+        <div class="container-fluid container-lg">
+            <article class="text-center">
+                <p class="hint-title ">Our community</p>
+                <h2 class="text-capitalize">Community main feature</h2>
+                <p class="p-gray">The wise man therefore always holds in these matters to 
+                    this principle of selection</p>
+            </article>
+            <div class="box-features mt-5">
+                <div class="row g-4">
+                    <div class="col-12 col-md-6">
+                        <div class="card flex-column flex-sm-row">
+                            <div class="icon-feature">
+                                <img src="images/Icon_members.svg" alt="">
+                            </div>
+                            <div class="details mt-3 ms-2">
+                                <h4 class="text-capitalize">Members, friends</h4>
+                                <p class="p-gray">Members, Friends Connection ( like followers ), Private Message</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card flex-column flex-sm-row">
+                            <div class="icon-feature">
+                                <img src="images/Icon_groups.svg" alt="">
+                            </div>
+                            <div class="details mt-3 ms-2">
+                                <h4 class="text-capitalize">Groups</h4>
+                                <p class="p-gray">Your users can create groups to let other users to join and talk</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card flex-column flex-sm-row">
+                            <div class="icon-feature">
+                                <img src="images/Icon_forum.svg" alt="">
+                            </div>
+                            <div class="details mt-3 ms-2">
+                                <h4 class="text-capitalize">Forum</h4>
+                                <p class="p-gray">Forum is ready by BBPress. Your users can make topics and talk.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card flex-column flex-sm-row">
+                            <div class="icon-feature">
+                                <img src="images/Icon_custom.svg" alt="">
+                            </div>
+                            <div class="details mt-3 ms-2">
+                                <h4 class="text-capitalize">Custom Module</h4>
+                                <p class="p-gray">
+                                    You can create Members, Groups Module. We already created 3 modules.
+                                    It's by drag & drop live builder,
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card flex-column flex-sm-row">
+                            <div class="icon-feature">
+                                <img src="images/Icon_list.svg" alt="">
+                            </div>
+                            <div class="details mt-3 ms-2">
+                                <h4 class="text-capitalize">List Builder</h4>
+                                <p class="p-gray">
+                                    Members, Groups list can be modified by drag & drop live builder.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card flex-column flex-sm-row">
+                            <div class="icon-feature">
+                                <img src="images/Icon_listScroll.svg" alt="">
+                            </div>
+                            <div class="details mt-3 ms-2">
+                                <h4 class="text-capitalize">List Scroll Effects</h4>
+                                <p class="p-gray">
+                                    8 different scroll effects are ready.
+                                    You can always change by your tastes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team -->
+    <div class="team" id="team">
+        <div class="container-fluid container-lg d-grid">
+            <article class="text-center">
+                <p class="hint-title ">Valuable Team</p>
+                <h2 class="text-capitalize">Our active members</h2>
+                <p class="p-gray">
+                    when an unknown printer took a galley of type and meeting fari scrambled it.
+                </p>
+            </article>
+            <ul class="list-unstyled d-flex align-items-center mt-4">
+                <li>Newst</li>
+                <li>Popular</li>
+                <li class="general-btn">Active</li>
+            </ul>
+            <div class="info-team text-center">
+                <div class="row g-3">
+                    <div class="parent-card col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card justify-content-center align-items-center">
+                            <div class="img-person position-relative">
+                                <img src="images/cycle.svg" class="border-cycle">
+                                <img src="images/Fahim.png" alt="">
+                                <span class="correct-sign">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                            </div>  
+                            <div class="name-person">
+                                <h4>Fahim Rahman</h4>
+                                <p class="p-gray">@rahman</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parent-card col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card justify-content-center align-items-center">
+                            <div class="img-person position-relative">
+                                <img src="images/cycle.svg" class="border-cycle">
+                                <img src="images/Kazi.png" alt="">
+                                <span class="correct-sign">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                            </div>  
+                            <div class="name-person">
+                                <h4>Kazi Rahman</h4>
+                                <p class="p-gray">@Rahman</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parent-card col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card justify-content-center align-items-center">
+                            <div class="img-person position-relative">
+                                <img src="images/cycle.svg" class="border-cycle">
+                                <img src="images/Masterero.png" alt="">
+                                <span class="correct-sign">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                            </div>  
+                            <div class="name-person">
+                                <h4>Masterero Ali</h4>
+                                <p class="p-gray">@Master</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parent-card col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card justify-content-center align-items-center">
+                            <div class="img-person position-relative">
+                                <img src="images/cycle.svg" class="border-cycle">
+                                <img src="images/Alia.png" alt="">
+                                <span class="correct-sign">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                            </div>  
+                            <div class="name-person">
+                                <h4>Alia Karon</h4>
+                                <p class="p-gray">@Alia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Application -->
+    <div class="application" id="application">
+        <div class="container-fluid container-sm">
+            <div class="row justify-content-between g-5 align-items-center">
+                <div class="col-12 col-lg-6">
+                    <article>
+                        <p class="hint-title text-capitalize">Get our application</p>
+                        <h2 class="text-capitalize">You can easily find this app...!</h2>
+                        <p class="p-gray">
+                            I say chap that's using lavatory chip shop gosh off his smashing 
+                            boot are you taking the piss posh 100 billion.
+                        </p>
+                        <div class="row download mt-3 g-2">
+                            <div class="col-12 col-sm-6 ">
+                                <button class="d-flex align-items-center text-start">
+                                    <i class="fa-brands fa-apple me-3"></i>
+                                    <div>
+                                        <p class="p-gray">Download on the</p>
+                                        <h6>App Store</h6>
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                <button class="d-flex align-items-center text-start">
+                                    <img class="me-3" src="images/play-store-icon.png" alt="">
+                                    <div>
+                                        <p class="text-white-50 m-0">Download on the</p>
+                                        <h6 class="text-light">play Store</h6>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12  col-lg-5 d-flex justify-content-center">
+                    <div class="screen-box position-relative mt-5 mt-lg-0">
+                        <img src="images/Lines.svg" alt="" class="line">
+                        <img src="images/screen.png" alt="" class="screen">
+                        <span class="circle-red"></span>
+                        <span class="circle-green"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog -->
+    <div class="blog" id="blog">
+        <div class="container-fluid container-lg position-relative">
+            <article class="text-center">
+                <p class="hint-title text-capitalize">Get our application</p>
+                <h2>Latest News</h2>
+            </article>
+            <div class="union d-none d-xl-block">
+                <img src="images/Union.svg" alt="">
+                <img src="images/Union.svg" alt="">
+            </div>
+            <div class="news mt-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="images/News1.png" alt="">
+                            <div class="details mt-4">
+                                <div>
+                                    <h5 class="text-capitalize mb-3">it does not matter hows slowly go as long</h5>
+                                    <a class="p-gray text-decoration-none" href="#">Continue Reading
+                                        <i class="fa-solid fa-arrow-right ms-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="images/New2.png" alt="">
+                            <div class="details mt-4">
+                                <div>
+                                    <h5 class="text-capitalize mb-3">it does not matter hows slowly go as long</h5>
+                                    <a class="p-gray text-decoration-none" href="#">Continue Reading
+                                        <i class="fa-solid fa-arrow-right ms-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="images/News3.png" alt="">
+                            <div class="details mt-4">
+                                <div>
+                                    <h5 class="text-capitalize mb-3">it does not matter hows slowly go as long</h5>
+                                    <a class="p-gray text-decoration-none" href="#">Continue Reading
+                                        <i class="fa-solid fa-arrow-right ms-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-12 col-lg-8">
+                    <div class="links row g-4">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <h5>Home</h5>
+                            <ul>
+                                <li>Home</li>
+                                <li>Community</li>
+                                <li>Events</li>
+                                <li>Contact</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <h5>Resources</h5>
+                            <ul>
+                                <li>Blog</li>
+                                <li>News</li>
+                                <li>Guides</li>
+                                <li>Help Center</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <h5>Community</h5>
+                            <ul>
+                                <li>NewsFeed</li>
+                                <li>Profile</li>
+                                <li>Friends</li>
+                                <li>Forums</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <h5>Main links</h5>
+                            <ul>
+                                <li>Members</li>
+                                <li>Activity</li>
+                                <li>Groups</li>
+                                <li>Private Group</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="subscribe">
+                        <h4 class="text-capitalize">Subscribe cirkle newsletter</h4>
+                        <p class="p-gray mb-4">Subscribe to be the first one to know about updates.
+                            Enter your email.
+                        </p>
+                        <div class="subscribe-btn">
+                            <input type="email" placeholder="Email Address">
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Finish -->
+    <div class="Finish">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div>
+                        <p class="text-capitalize text-white-50 m-0">Besnik creative agency.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="d-flex">
+                        <img src="images/Netbook.svg" alt="Netbook">
+                        <h4 class="text-light ms-2 mb-0">Netbook</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="connect-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- JS main -->
+    <script src="JS/main.js"></script>
+    <!-- JS Login -->
+    <script src="Form/JS/LogIn.js"></script>
+    <!-- JS bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
